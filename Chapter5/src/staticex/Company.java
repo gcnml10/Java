@@ -7,7 +7,7 @@ public class Company {
 	private Company() {}
 	
 	public static Company getInstance() {
-		if (instance == null) {
+		if (instance == null) {               //혹시나 해서
 			instance = new Company();
 		}
 		return instance;
