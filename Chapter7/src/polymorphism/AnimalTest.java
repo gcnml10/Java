@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 class Animal{
 	
-	public void move() {
+	public void move() {   
 		System.out.println("동물이 움직입니다.");
 	}
 }
